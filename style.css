@@ -28,14 +28,12 @@
 .header {
   height: 88px;
   align-items: center;
-  align-items: center;
   display: flex;
   justify-content: space-between;
 }
 .icons3 {
   display: flex;
   gap: 24px;
-  margin-right: 160px;
 }
 .li4 {
   gap: 52px;
@@ -61,12 +59,29 @@ a:hover {
   letter-spacing: 0%;
   opacity: 1;
 }
-.logo {
-  margin-left: 160px;
+@media only screen and (min-width: 1160px) {
+  .burger {
+    display: none;
+  }
 }
+@media only screen and (max-width: 1160px) {
+  .burger {
+    display: show;
+  }
+  .lis4,
+  .search-container,
+  .icons3 {
+    display: none;
+  }
+  .header {
+    width: calc(100vw - 32px);
+  }
+}
+
+/* start hero */
 .hero1 {
   color: #fff;
-  height: 632px;
+  /* height: 632px; */
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -124,6 +139,44 @@ h1 {
   justify-content: space-between;
   display: flex;
 }
+
+@media only screen and (max-width: 1160px) {
+  .heroo {
+    flex-direction: column;
+  }
+  .phone {
+    display: none;
+  }
+  .hero1 {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 48px;
+    padding-top: 88px;
+  }
+  .shop-now {
+    margin: auto;
+  }
+  .phone-cut {
+    margin: auto;
+  }
+  h1 {
+    font-size: 72px;
+  }
+  .pro {
+    font-weight: 600;
+  }
+  .created-p {
+    font-size: 19px;
+  }
+}
+
+@media only screen and (min-width: 1160px) {
+  .phone-cut {
+    display: none;
+  }
+}
+
+/* arrow start */
 .arrows {
   gap: 16px;
   display: flex;
@@ -148,10 +201,20 @@ h1 {
   color: #000000;
 }
 .cards1 {
-  display: flex;
-  border-radius: 15px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* 6 cards in one row */
   gap: 32px;
   padding-bottom: 80px;
+}
+@media only screen and (max-width: 1160px) {
+  .cards1 {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+    gap: 16px;
+  }
+  .cards1 .card {
+    width: calc(50vw - 32px);
+    object-fit: cover;
+  }
 }
 .card {
   gap: 8px;
@@ -168,6 +231,7 @@ h1 {
   width: 48px;
   height: 48px;
 }
+/* links start */
 .links p {
   font-weight: 500;
   font-size: 18px;
@@ -188,6 +252,7 @@ h1 {
 .links p:hover {
   color: #000000;
 }
+/* cards2 start */
 .phone3 {
   width: 160px;
   height: 160px;
@@ -198,6 +263,16 @@ h1 {
   gap: 16px;
   grid-template-rows: repeat(2, 1fr);
   margin-bottom: 56px;
+}
+@media (max-width: 1160px) {
+  .cards2 {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: repeat(4, 1fr); /* 4 rows */
+  }
+  .cards2 .card2 {
+    width: calc(50vw - 32px);
+    object-fit: cover;
+  }
 }
 .card2 {
   gap: 16px;
@@ -242,6 +317,43 @@ h1 {
   letter-spacing: 0%;
   text-align: center;
 }
+@media (max-width: 1160px) {
+  .card2 {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    align-items: center;
+    width: 268px;
+    height: 352px;
+    min-width: 200px;
+    border-radius: 9px;
+    padding-top: 64px;
+  }
+  .apple {
+padding-bottom: 8px;
+  }
+  .grey {
+    background-color: #fafafa;
+  }
+  .dollar {
+    padding-bottom: 8px;
+
+  }
+.phone3{
+  width: 104px;
+  height: 104px;
+
+}
+  .buy-now {
+    margin-top: 0px;
+  
+    width: 140px;
+    height: 48px;
+  }
+}
+
+
 .discounts {
   padding-top: 80px;
   padding-bottom: 32px;
@@ -251,6 +363,7 @@ h1 {
   letter-spacing: 0%;
   color: #000000;
 }
+/* cards3 start */
 .cards3 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -258,7 +371,16 @@ h1 {
   grid-template-rows: 1fr;
   margin-bottom: 80px;
 }
-
+@media (max-width: 1160px) {
+  .cards3 {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: repeat(2, 1fr); /* 4 rows */
+  }
+  .cards3 .card2 {
+    width: calc(50vw - 32px);
+    object-fit: cover;
+    }
+}
 .wreli {
   width: 100%;
   position: relative;
@@ -269,6 +391,7 @@ h1 {
   height: auto;
   display: block;
 }
+
 .in-background {
   top: 159px;
   position: absolute;
@@ -297,6 +420,20 @@ h1 {
   color: #787878;
   padding-bottom: 40px;
 }
+@media (max-width: 1050px) {
+  .big {
+    font-size: 48px;
+  }
+  .in-background {
+    top: 104px;
+  }
+}
+@media (max-width: 1400px) {
+  .wreli img {
+    height: 512px;
+  }
+}
+/* footer start */
 .footer {
   color: #fff;
 
@@ -359,4 +496,27 @@ h1 {
   gap: 36.33px;
   padding-bottom: 104px;
   padding-top: 24px;
+}
+@media (max-width: 1160px) {
+.futeri{
+  padding-top: 48px;
+  gap: 24px;
+  flex-direction: column;
+align-items: center;
+text-align: center;
+}
+.we p {
+  padding-right: 0px;
+}
+.logo1 {
+margin: auto;
+}
+.ps1 {
+  padding-right: 0px;
+}
+.icons {
+justify-content: center;
+padding-bottom: 48px;
+gap: 25.67px;
+}
 }
