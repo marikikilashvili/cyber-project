@@ -285,6 +285,17 @@ h1 {
   min-width: 200px;
   border-radius: 9px;
   padding-top: 72px;
+  position: relative;
+}
+.heart {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+@media (max-width: 1160px) {
+  .heart {
+    right: 12px;
+  }
 }
 .apple {
   text-align: center;
@@ -324,35 +335,31 @@ h1 {
     flex-direction: column;
     background-color: #f6f6f6;
     align-items: center;
-    width: 268px;
     height: 352px;
-    min-width: 200px;
+    min-width: 163.5px;
     border-radius: 9px;
     padding-top: 64px;
   }
   .apple {
-padding-bottom: 8px;
+    padding-bottom: 8px;
   }
   .grey {
     background-color: #fafafa;
   }
   .dollar {
     padding-bottom: 8px;
-
   }
-.phone3{
-  width: 104px;
-  height: 104px;
-
-}
+  .phone3 {
+    width: 104px;
+    height: 104px;
+  }
   .buy-now {
     margin-top: 0px;
-  
+
     width: 140px;
     height: 48px;
   }
 }
-
 
 .discounts {
   padding-top: 80px;
@@ -379,7 +386,7 @@ padding-bottom: 8px;
   .cards3 .card2 {
     width: calc(50vw - 32px);
     object-fit: cover;
-    }
+  }
 }
 .wreli {
   width: 100%;
@@ -498,25 +505,25 @@ padding-bottom: 8px;
   padding-top: 24px;
 }
 @media (max-width: 1160px) {
-.futeri{
-  padding-top: 48px;
-  gap: 24px;
-  flex-direction: column;
-align-items: center;
-text-align: center;
-}
-.we p {
-  padding-right: 0px;
-}
-.logo1 {
-margin: auto;
-}
-.ps1 {
-  padding-right: 0px;
-}
-.icons {
-justify-content: center;
-padding-bottom: 48px;
-gap: 25.67px;
-}
+  .futeri {
+    padding-top: 48px;
+    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .we p {
+    padding-right: 0px;
+  }
+  .logo1 {
+    margin: auto;
+  }
+  .ps1 {
+    padding-right: 0px;
+  }
+  .icons {
+    justify-content: center;
+    padding-bottom: 48px;
+    gap: 25.67px;
+  }
 }
