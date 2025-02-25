@@ -74,8 +74,13 @@ a:hover {
     display: none;
   }
   .header {
-    width: calc(100vw - 32px);
+padding-right: 16px;
+padding-left: 16px;
   }
+  .links,  .discounts,.browse{
+    padding-left: 16px;
+  }
+
 }
 
 /* start hero */
@@ -209,6 +214,8 @@ h1 {
 @media only screen and (max-width: 1160px) {
   .cards1 {
     grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+    margin-left: 16px;
+
     gap: 16px;
   }
   .cards1 .card {
@@ -382,6 +389,7 @@ h1 {
   .cards3 {
     grid-template-columns: repeat(2, 1fr); /* 2 columns */
     grid-template-rows: repeat(2, 1fr); /* 4 rows */
+    margin-left: 16px;
   }
   .cards3 .card2 {
     width: calc(50vw - 32px);
