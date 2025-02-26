@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Phones",
+    "img": "images/small-Phone.svg"
+  },
+  {
+    "id": 2,
+    "name": "Smart Watches",
+    "img": "images/cards-api/Smart Watches.svg"
+  },
+  {
+    "id": 3,
+    "name": "Cameras",
+    "img": "images/cards-api/Cameras.svg"
+  },
+  {
+    "id": 4,
+    "name": "Headphones",
+    "img": "images/cards-api/Headphones.svg"
+  },
+  {
+    "id": 5,
+    "name": "Computers",
+    "img": "images/cards-api/Computers.svg"
+  },
+  {
+    "id": 6,
+    "name": "Gaming",
+    "img": "images/cards-api/Gaming.svg"
+  }
+]

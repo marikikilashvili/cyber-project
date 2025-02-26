@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Apple iPhone 14 Pro Max 128GB Deep Purple",
+    "price": "$900",
+    "img": "./images/phone3.png",
+    "favorite": false
+  },
+  {
+    "id": 2,
+    "name": "Blackmagic Pocket Cinema Camera 6K",
+    "price": "$2535",
+    "img": "images/cards2-api/copy-headphones.png",
+    "favorite": false
+  },
+  {
+    "id": 3,
+    "name": "Apple Watch Series 9 GPS 41mm Starlight Aluminium",
+    "price": "$399",
+    "img": "images/cards2-api/copy-watch.png",
+    "favorite": false
+  },
+  {
+    "id": 4,
+    "name": "AirPods Max Silver Starlight Aluminium",
+    "price": "$549",
+    "img": "images/cards2-api/cards3-phone.png",
+    "favorite": false
+  }
+]
