@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Apple iPhone 14 Pro Max 128Gb Deep Purple",
+    "img": "./images/phone3.png",
+    "price": "$1399",
+    "code": "#25139526913984"
+  },
+  {
+    "id": 2,
+    "name": "AirPods Max Silver",
+    "img": "images/cards2-api/copy-headphones.png",
+    "price": "$549",
+    "code": "#53459358345"
+  },
+  {
+    "id": 3,
+    "name": "Apple Watch Series 9 GPS 41mm Starlight Aluminium ",
+    "img": "images/cards2-api/copy-watch.png",
+    "price": "$399",
+    "code": "#63632324"
+  }
+]
